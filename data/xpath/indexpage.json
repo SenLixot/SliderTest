@@ -1,0 +1,17 @@
+{
+  "Срок текущего тарифа": "//div[@class='tariff unavailable']//div[@class='time']/strong",
+  "Скорость текущего тарифа": "//div[@class='tariff unavailable']//div[@class='speed']/strong",
+  "Цена текущего тарифа": "//div[@class='tariff unavailable']//div[contains(@class, 'cost')]/strong",
+  "Срок предложенного тарифа": "//div[@class='main-offer']//div[@class='time']/strong",
+  "Скорость предложенного тарифа": "//div[@class='main-offer']//div[@class='speed']/strong",
+  "Цена предложенного тарифа": "//div[@class='main-offer']//div[@class='cost']/strong",
+  "Кнопка -": "//div[@class='decrease']/a",
+  "Кнопка +": "//div[@class='increase']/a",
+  "Поле пополнения": "//input",
+  "Кнопка подтверждения пополнения": "//a[contains(@data-bind, 'doPayment')]",
+  "Баланс": "//span[contains(@data-bind, 'balance')]",
+  "Кнопка подключения": "//a[contains(@data-bind, 'doPurchase')]",
+  "Кнопка сброса": "//a[contains(@data-bind, 'doReset')]",
+  "Ползунок": "//a[contains(@class, 'slider')]",
+  "Ползунок (id)": "#slider-handle"
+}
